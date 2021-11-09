@@ -1,0 +1,17 @@
+body {
+    background-image: url("https://mondaycareer.com/wp-content/uploads/2020/11/background-%C4%91%E1%BA%B9p-3-1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    color: aliceblue;
+}
+h2 {
+    font-weight: 700px;
+    color:#5eb1e9;
+    font-size: 2rem;
+    text-align: center;
+    text-transform: capitalize;
+}
+html{
+    font-size: 16px;
+}
