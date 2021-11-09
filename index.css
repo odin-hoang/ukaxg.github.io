@@ -4,6 +4,7 @@ body {
     background-attachment: fixed;
     background-size: 100% 100%;
     color: aliceblue;
+    
 }
 h2 {
     font-weight: 700px;
@@ -12,6 +13,28 @@ h2 {
     text-align: center;
     text-transform: capitalize;
 }
+
+h3 {
+    padding: 20px 0px 0px 0px;
+    font-size: 19px;
+}
+ul {
+    margin: 0px;
+    padding: 0px 0px 20px 20px;
+}
+div {
+
+    background-color: rgba(10, 10, 10,0.5);
+
+
+}
 html{
     font-size: 16px;
+    font-family: 'Inter';
+}
+#main{
+    margin: 0px 50px 0px 50px;
+    padding: 0px 40px 0px 40px;
+    width: 1200px;
+    position:relative;
 }
