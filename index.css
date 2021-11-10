@@ -25,6 +25,12 @@ ul {
   margin: 0px;
   padding: 0px 0px 20px 20px;
 }
+audio {
+  position: absolute;
+  margin: 0;
+  right: 320px;
+  top: 160px;
+}
 div {
   background-color: rgba(10, 10, 10, 0.5);
 }
