@@ -28,8 +28,6 @@ ul {
 div {
 
     background-color: rgba(10, 10, 10,0.5);
-
-
 }
 div img {
     position: absolute;
@@ -49,9 +47,11 @@ a {
 a:hover {
     color: violet;
 }
+
 #main{
-    margin: 0px 50px 0px 50px;
     padding: 0px 40px 0px 40px;
     width: 1200px;
     position:relative;
+    display: block;
+    margin: 0 auto;
 }
