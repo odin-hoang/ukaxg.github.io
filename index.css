@@ -1,57 +1,55 @@
 body {
-    background-image: url("https://mondaycareer.com/wp-content/uploads/2020/11/background-%C4%91%E1%BA%B9p-3-1.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100% 100%;
-    color: aliceblue;
-    
+  background-image: url("https://mondaycareer.com/wp-content/uploads/2020/11/background-%C4%91%E1%BA%B9p-3-1.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  color: aliceblue;
 }
-h3,p {
-    padding: 0px;
+h3,
+p {
+  padding: 0px;
 }
 h2 {
-    font-weight: 700px;
-    color:#5eb1e9;
-    font-size: 2rem;
-    text-align: center;
-    text-transform: capitalize;
+  font-weight: 700px;
+  color: #5eb1e9;
+  font-size: 2rem;
+  text-align: center;
+  text-transform: capitalize;
 }
 
 h3 {
-    padding: 20px 0px 0px 0px;
-    font-size: 19px;
+  padding: 20px 0px 0px 0px;
+  font-size: 19px;
 }
 ul {
-    margin: 0px;
-    padding: 0px 0px 20px 20px;
+  margin: 0px;
+  padding: 0px 0px 20px 20px;
 }
 div {
-
-    background-color: rgba(10, 10, 10,0.5);
+  background-color: rgba(10, 10, 10, 0.5);
 }
 div img {
-    position: absolute;
-    right: 40px;
-    top: 70px;
-    border-radius: 20px;
-
+  position: absolute;
+  right: 40px;
+  top: 70px;
+  border-radius: 20px;
 }
-html{
-    font-size: 16px;
-    font-family: 'Inter';
+html {
+  font-size: 16px;
+  font-family: "Inter";
 }
 a {
-    color: #5eb1e9;
-    text-decoration: none;
+  color: #5eb1e9;
+  text-decoration: none;
 }
 a:hover {
-    color: violet;
+  color: violet;
 }
 
-#main{
-    padding: 0px 40px 0px 40px;
-    width: 1200px;
-    position:relative;
-    display: block;
-    margin: 0 auto;
+#main {
+  padding: 0px 40px 0px 40px;
+  width: 1200px;
+  position: relative;
+  display: block;
+  margin: 0 auto;
 }
