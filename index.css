@@ -6,6 +6,9 @@ body {
     color: aliceblue;
     
 }
+h3,p {
+    padding: 0px;
+}
 h2 {
     font-weight: 700px;
     color:#5eb1e9;
@@ -31,6 +34,10 @@ div {
 html{
     font-size: 16px;
     font-family: 'Inter';
+}
+a {
+    color: #5eb1e9;
+    text-decoration: none;
 }
 #main{
     margin: 0px 50px 0px 50px;
