@@ -5,9 +5,8 @@ body {
   background-size: 100% 100%;
   color: aliceblue;
 }
-h3,
 p {
-  padding: 0px;
+  padding: 0;
 }
 h2 {
   font-weight: 700px;
@@ -34,12 +33,7 @@ audio {
 div {
   background-color: rgba(10, 10, 10, 0.5);
 }
-div img {
-  position: absolute;
-  right: 40px;
-  top: 65px;
-  border-radius: 20px;
-}
+
 html {
   font-size: 16px;
   font-family: "Inter";
@@ -51,11 +45,35 @@ a {
 a:hover {
   color: violet;
 }
+table {
+  padding-bottom: 20px;
+}
+td,
+th {
+  border-radius: 10px;
+  border: 2px solid rgba(10, 10, 10, 0.4);
+  text-align: center;
+}
+td:hover,
+th:hover {
+  background-color: rgb(240, 149, 240);
+  color: black;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+#blank {
+  background-color: transparent;
+  border: 0;
+}
+#gif {
+  float: right;
+  top: 0;
+}
 
 #main {
   padding: 0px 40px 0px 40px;
-  width: 1200px;
   position: relative;
-  display: block;
   margin: 0 auto;
+  margin-right: 50px;
+  margin-left: 50px;
 }
