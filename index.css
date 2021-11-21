@@ -1,61 +1,130 @@
 body {
-  background-image: url("https://mondaycareer.com/wp-content/uploads/2020/11/background-%C4%91%E1%BA%B9p-3-1.jpg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: 100% 100%;
-  color: aliceblue;
+    background-image: url("https://mondaycareer.com/wp-content/uploads/2020/11/background-%C4%91%E1%BA%B9p-3-1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    color: aliceblue;
 }
-h3,
+
 p {
-  padding: 0px;
+    padding: 0;
 }
+
 h2 {
-  font-weight: 700px;
-  color: #5eb1e9;
-  font-size: 2rem;
-  text-align: center;
-  text-transform: capitalize;
+    font-weight: 700px;
+    color: #5eb1e9;
+    font-size: 2rem;
+    text-align: center;
+    text-transform: capitalize;
 }
 
 h3 {
-  padding: 20px 0px 0px 0px;
-  font-size: 19px;
-}
-ul {
-  margin: 0px;
-  padding: 0px 0px 20px 20px;
-}
-audio {
-  position: absolute;
-  margin: 0;
-  right: 320px;
-  top: 160px;
-}
-div {
-  background-color: rgba(10, 10, 10, 0.5);
-}
-div img {
-  position: absolute;
-  right: 40px;
-  top: 65px;
-  border-radius: 20px;
-}
-html {
-  font-size: 16px;
-  font-family: "Inter";
-}
-a {
-  color: #5eb1e9;
-  text-decoration: none;
-}
-a:hover {
-  color: violet;
+    padding: 20px 0px 0px 0px;
+    font-size: 19px;
 }
 
-#main {
-  padding: 0px 40px 0px 40px;
-  width: 1200px;
-  position: relative;
-  display: block;
-  margin: 0 auto;
+ul {
+    margin: 0px;
+    padding: 0px 0px 20px 20px;
+}
+
+audio {
+    position: absolute;
+    margin: 0;
+    right: 320px;
+    top: 160px;
+}
+
+div {
+    background-color: rgba(10, 10, 10, 0.5);
+}
+
+html {
+    font-size: 16px;
+    font-family: "Inter";
+}
+
+a {
+    color: #5eb1e9;
+    text-decoration: none;
+}
+
+a:hover {
+    color: violet;
+}
+
+table {
+    padding-bottom: 20px;
+}
+
+td,
+th {
+    border-radius: 10px;
+    border: 2px solid rgba(10, 10, 10, 0.4);
+    text-align: center;
+}
+
+td:hover,
+th:hover {
+    background-color: rgb(240, 149, 240);
+    color: black;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.nevigation {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(10, 10, 10, 0.5);
+}
+
+.nevigation li {
+    float: left;
+}
+
+.nevigation li a {
+    padding: 20px;
+    display: block;
+}
+
+.nevigation li a:hover {
+    background-color: rgba(10, 10, 10, 0.8);
+}
+
+#blank {
+    background-color: transparent;
+    border: 0;
+}
+
+#gif {
+    float: right;
+    top: 0;
+}
+
+#button {
+    background-color: #5eb1e9;
+    display: inline-block;
+    margin: 5px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    background-size: 100% 100%;
+}
+
+#button:hover {
+    background-color: rgb(240, 149, 240);
+}
+
+#button:active {
+    border-radius: 100%;
+}
+
+.main {
+    padding: 0px 40px 0px 40px;
+    position: relative;
+    margin: 0 auto;
+    margin-right: 50px;
+    margin-left: 50px;
 }
